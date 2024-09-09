@@ -1,0 +1,43 @@
+﻿namespace ArmaProperty.Domain.Constants;
+public class BodyMsg
+{
+    public const string Save = "تم الاضافة بنجاح";
+    public const string Edit = "تم التعديل بنجاح";
+    public const string ExistCreateName = "لم يتم الاضافة بسبب وجود الاسم من قبل في النظام";
+    public const string ExistEditName = "لم يتم التعديل بسبب وجود الاسم من قبل في النظام";
+    public const string ExistName = "لم يتم بسبب تكرار الاسم";
+    public const string ExistEmail = "لم يتم بسبب تكرار البريد الالكتروني ";
+    public const string NotSave = "لم يتم الاضافة بسبب وجود مشكلة";
+    public const string SubscriptionIsNotActive = "لم يتم الاضافة بسبب هذا الاشتراك غير مفعل";
+    public const string NotSaveSubscribtion = "لم يتم الاضافة بسبب أكتمال عدد المستخدمين علي هذا الأشتراك";
+    public const string PivotNotSave = "لم يتم الاضافة بسبب أكتمال عدد البيفوتات علي هذه المزرعة";
+    public const string NotEdit = "لم يتم التعديل بسبب وجود مشكلة";
+    public const string UpdatePackage = "تم تحديث الباقة بنجاح";
+    public const string NotUpdatePackage = "لم يتم تحديث الباقة بسبب وجود مشكلة";
+    public const string NotUpdatePackageExistSubscribtions = "لم يتم تحديث الباقة بسبب وجود عدد اشتراكات عليها";
+    public const string NotUpdatePackageName = "لم يتم تحديث الباقة بسبب وجود الاسم من قبل في النظام";
+    public const string DeletePackage = "تم حذف الباقة بنجاح";
+    public const string NotDeletePackage = "لم يتم حذف الباقة بسبب وجود مشكلة";
+    public const string ExistSubscribtions = "لم يتم حذف الباقة بسبب وجود عدد اشتراكات عليها";
+    public const string ContFarms = "لاتستطيع الاضافة لان استنفذت المتاح لاضافة المزارع لهذا الحساب";
+    public const string NotUpdateFarm = "لم يتم تحديث المزرعة بسبب وجود مشكلة";
+    public const string NotSavedFarmEdit = "لم يتم تحديث المزرعة بسبب وجود مشكلة";
+    public const string NotUpdateFarmExistName = "لم يتم تحديث المزرعة بسبب وجود الاسم من قبل في النظام";
+    public const string CountFarmEdit = "لم يتم تحديث المزرعة بسبب وجود عدد المزارع اكثر من المتاح لهذا الحساب";
+    public const string UpdateSubscribtion = "تم تحديث الاشترك بنجاح";
+    public const string NotUpdateSubscribtion = "لم يتم تحديث الاشترك بسبب وجود مشكلة";
+    public const string UpdateItem = "تم تحديث الصنف بنجاح";
+    public const string NotUpdateItem = "لم يتم تحديث الصنف بسبب وجود مشكلة";
+    public const string UpdateRoleName = "تم تحديث أسم الدور بنجاح";
+    public const string NotUpdateRoleName = "لم يتم تحديث أسم الدور بسبب وجود مشكلة";
+    public const string UpdateUser = "تم تحديث المستخدم بنجاح";
+    public const string NotUpdateUser = "لم يتم تحديث المستخدم بسبب وجود مشكلة";
+    public const string UpdatePivot = "تم تحديث البيفوت بنجاح";
+    public const string NotUpdatePivot = "لم يتم تحديث البيفوت لأن  استنفذت المتاح لاضافةالبيفوت علي هذه المزرعة ";
+    public const string NotSaveETo = " لم يتم حفظ ملف ال  ETo بسبب وجود ملف اخر علي نفس المنطقة ";
+    public const string NotSaveKC = " لم يتم حفظ ملف ال  kc بسبب وجود ملف اخر علي نفس المحصول ";
+    public const string UpdateEtO = " تم استبدال ملف ال ETo الموجود علي هذه المنطقة ";
+    public const string UpdateKC = " تم استبدال ملف ال KC الموجود علي هذا المحصول ";
+    public const string UpdateWater = "تم تحديث كمية المياه بنجاح";
+    public const string NoFoundPlan = "لعدم وجود خطة علي هذه البيانات";
+}

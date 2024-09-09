@@ -1,0 +1,187 @@
+﻿@using ArmaProperty.Domain.Constants
+@using Microsoft.AspNetCore.Identity
+
+
+@*  @inject UserManager<ApplicationUser> userManager
+@inject SignInManager<ApplicationUser> signInManager *@
+
+<!-- Main Sidebar Container -->
+<aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <!-- Brand Logo -->
+
+    <a href="/Admin/Home/Index" class="brand-link">
+        <img src="~/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+             style="background-color:orange">
+        <span class="brand-text font-weight-light">لوحة التحكم</span>
+    </a>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <!-- Sidebar user panel (optional) -->
+        <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+            @* @if (signInManager.IsSignedIn(User))
+            { *@
+                <div class="image">
+                @* @Const.PathImgeUser/@((await userManager.GetUserAsync(User))?.ImageName )*@
+                <img src="~/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+                </div>
+                <div class="info">
+                    <a href="#" class="d-block">@* @((await userManager.GetUserAsync(User))?.UserName) *@Mahmoud Hamza</a>
+                    <form asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                        <button type="submit" class="d-block" style="border:none;font-size:small; color:orange;background-color:#343a40">تسجيل خروج</button>
+                    </form>
+                </div>
+           @*  } *@
+        </div>
+        <!-- Sidebar Menu -->
+        <nav class="mt-2">
+            <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                <!-- Add icons to the links using the .nav-icon class
+                     with font-awesome or any other icon font library -->
+                <li class="nav-item">
+                    <a href="/Admin/Home/Index" class="nav-link active" style="background-color:#ed5107 !important">
+                        <i class="nav-icon fas fa-tachometer-alt"></i>
+                        <p>
+                            لوحة التحكم
+                            <!-- <i class="right fas fa-angle-left"></i> -->
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item has-treeview" id="js-treeview-Management">
+
+                    <a href="#" class="nav-link titleli">
+                        <i class="nav-icon fas fa-chart-pie"></i>
+                        <p>
+                            الادارة
+                            <i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="/Admin/Accounts/Roles" class="nav-link" id="js-Roles">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>مجموعات المستخدمين</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/Admin/Accounts/Registers" class="nav-link" id="js-Registers">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>المستخدمين</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item has-treeview" id="js-TreeView-Settings">
+
+                    <a href="#" class="nav-link titleli">
+                        <i class="nav-icon fas fa-indent"></i>
+                        <p>
+                            الاعدادات
+                            <i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="/Admin/Categories/List" id="js-ListCategories" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>
+                                    الملاك
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/Admin/SubCategories/List" id="js-ListSubCategories" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>
+                                    المستأجرين
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/Properties/Index" id="js-ListProperties" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>
+                                    الوحدات
+                                </p>
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </li>
+                <li class="nav-item has-treeview" id="js-treeview-Authors">
+                    <a href="#" class="nav-link titleli">
+                        <i class="nav-icon fas fa-users-cog"></i>
+                        <p>
+                            العقود
+                            <i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="/Admin/Authors/List" id="js-ListAuthors" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>
+                                    المؤلفين
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/Admin/Publishers/List" id="js-ListPublisher" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>
+                                    دور النشر
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/Admin/AuthorUnderPublishersHouses/List" id="js-ListAuthorUnderPublishersHouse" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>
+                                    مؤلفين تحت دور نشر
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item has-treeview" id="js-treeview-Authors">
+                    <a href="#" class="nav-link titleli">
+                        <i class="nav-icon fas fa-users-cog"></i>
+                        <p>
+                            التقارير
+                            <i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="/Admin/Authors/List" id="js-ListAuthors" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>
+                                    المؤلفين
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/Admin/Publishers/List" id="js-ListPublisher" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>
+                                    دور النشر
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/Admin/AuthorUnderPublishersHouses/List" id="js-ListAuthorUnderPublishersHouse" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>
+                                    مؤلفين تحت دور نشر
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+           
+            </ul>
+        </nav>
+        <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+</aside>
