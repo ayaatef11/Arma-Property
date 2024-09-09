@@ -29,3 +29,4 @@ Integration
 
 - External Systems: Integration with other systems such as accounting software or CRM systems for seamless data exchange.
 - API Access: Provide APIs for third-party integrations and extensions.
+![image](https://github.com/user-attachments/assets/4bf79fd9-b4f2-4e6f-b530-52a4037b7cbc)
