@@ -1,0 +1,410 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\full-stack\\ArmaProperty\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B2422E29-E011-4CB3-A8E6-23D5615135FD}|ArmaProperty\\ArmaProperty.Web.csproj|f:\\full-stack\\armaproperty\\armaproperty\\views\\tenants\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2422E29-E011-4CB3-A8E6-23D5615135FD}|ArmaProperty\\ArmaProperty.Web.csproj|solutionrelative:armaproperty\\views\\tenants\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2422E29-E011-4CB3-A8E6-23D5615135FD}|ArmaProperty\\ArmaProperty.Web.csproj|f:\\full-stack\\armaproperty\\armaproperty\\views\\tenants\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2422E29-E011-4CB3-A8E6-23D5615135FD}|ArmaProperty\\ArmaProperty.Web.csproj|solutionrelative:armaproperty\\views\\tenants\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2422E29-E011-4CB3-A8E6-23D5615135FD}|ArmaProperty\\ArmaProperty.Web.csproj|f:\\full-stack\\armaproperty\\armaproperty\\views\\properties\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2422E29-E011-4CB3-A8E6-23D5615135FD}|ArmaProperty\\ArmaProperty.Web.csproj|solutionrelative:armaproperty\\views\\properties\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2422E29-E011-4CB3-A8E6-23D5615135FD}|ArmaProperty\\ArmaProperty.Web.csproj|f:\\full-stack\\armaproperty\\armaproperty\\views\\properties\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2422E29-E011-4CB3-A8E6-23D5615135FD}|ArmaProperty\\ArmaProperty.Web.csproj|solutionrelative:armaproperty\\views\\properties\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2422E29-E011-4CB3-A8E6-23D5615135FD}|ArmaProperty\\ArmaProperty.Web.csproj|f:\\full-stack\\armaproperty\\armaproperty\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2422E29-E011-4CB3-A8E6-23D5615135FD}|ArmaProperty\\ArmaProperty.Web.csproj|solutionrelative:armaproperty\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2422E29-E011-4CB3-A8E6-23D5615135FD}|ArmaProperty\\ArmaProperty.Web.csproj|f:\\full-stack\\armaproperty\\armaproperty\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2422E29-E011-4CB3-A8E6-23D5615135FD}|ArmaProperty\\ArmaProperty.Web.csproj|solutionrelative:armaproperty\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF27CD0-5E20-4285-9FBB-D18506CFD5D0}|ArmaProperty.Infrastructure\\ArmaProperty.Infrastructure.csproj|f:\\full-stack\\armaproperty\\armaproperty.infrastructure\\global.infrastructure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF27CD0-5E20-4285-9FBB-D18506CFD5D0}|ArmaProperty.Infrastructure\\ArmaProperty.Infrastructure.csproj|solutionrelative:armaproperty.infrastructure\\global.infrastructure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2422E29-E011-4CB3-A8E6-23D5615135FD}|ArmaProperty\\ArmaProperty.Web.csproj|f:\\full-stack\\armaproperty\\armaproperty\\armaproperty.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B2422E29-E011-4CB3-A8E6-23D5615135FD}|ArmaProperty\\ArmaProperty.Web.csproj|solutionrelative:armaproperty\\armaproperty.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF27CD0-5E20-4285-9FBB-D18506CFD5D0}|ArmaProperty.Infrastructure\\ArmaProperty.Infrastructure.csproj|f:\\full-stack\\armaproperty\\armaproperty.infrastructure\\viewmodel\\tenantviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF27CD0-5E20-4285-9FBB-D18506CFD5D0}|ArmaProperty.Infrastructure\\ArmaProperty.Infrastructure.csproj|solutionrelative:armaproperty.infrastructure\\viewmodel\\tenantviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF27CD0-5E20-4285-9FBB-D18506CFD5D0}|ArmaProperty.Infrastructure\\ArmaProperty.Infrastructure.csproj|f:\\full-stack\\armaproperty\\armaproperty.infrastructure\\viewmodel\\ownerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF27CD0-5E20-4285-9FBB-D18506CFD5D0}|ArmaProperty.Infrastructure\\ArmaProperty.Infrastructure.csproj|solutionrelative:armaproperty.infrastructure\\viewmodel\\ownerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF27CD0-5E20-4285-9FBB-D18506CFD5D0}|ArmaProperty.Infrastructure\\ArmaProperty.Infrastructure.csproj|f:\\full-stack\\armaproperty\\armaproperty.infrastructure\\viewmodel\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF27CD0-5E20-4285-9FBB-D18506CFD5D0}|ArmaProperty.Infrastructure\\ArmaProperty.Infrastructure.csproj|solutionrelative:armaproperty.infrastructure\\viewmodel\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF27CD0-5E20-4285-9FBB-D18506CFD5D0}|ArmaProperty.Infrastructure\\ArmaProperty.Infrastructure.csproj|f:\\full-stack\\armaproperty\\armaproperty.infrastructure\\viewmodel\\contractviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF27CD0-5E20-4285-9FBB-D18506CFD5D0}|ArmaProperty.Infrastructure\\ArmaProperty.Infrastructure.csproj|solutionrelative:armaproperty.infrastructure\\viewmodel\\contractviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF27CD0-5E20-4285-9FBB-D18506CFD5D0}|ArmaProperty.Infrastructure\\ArmaProperty.Infrastructure.csproj|f:\\full-stack\\armaproperty\\armaproperty.infrastructure\\viewmodel\\propertyviewmodels\\propertylistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF27CD0-5E20-4285-9FBB-D18506CFD5D0}|ArmaProperty.Infrastructure\\ArmaProperty.Infrastructure.csproj|solutionrelative:armaproperty.infrastructure\\viewmodel\\propertyviewmodels\\propertylistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF27CD0-5E20-4285-9FBB-D18506CFD5D0}|ArmaProperty.Infrastructure\\ArmaProperty.Infrastructure.csproj|f:\\full-stack\\armaproperty\\armaproperty.infrastructure\\viewmodel\\propertyviewmodels\\propertyfiltersviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF27CD0-5E20-4285-9FBB-D18506CFD5D0}|ArmaProperty.Infrastructure\\ArmaProperty.Infrastructure.csproj|solutionrelative:armaproperty.infrastructure\\viewmodel\\propertyviewmodels\\propertyfiltersviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF27CD0-5E20-4285-9FBB-D18506CFD5D0}|ArmaProperty.Infrastructure\\ArmaProperty.Infrastructure.csproj|f:\\full-stack\\armaproperty\\armaproperty.infrastructure\\viewmodel\\propertyviewmodels\\propertyaddeditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF27CD0-5E20-4285-9FBB-D18506CFD5D0}|ArmaProperty.Infrastructure\\ArmaProperty.Infrastructure.csproj|solutionrelative:armaproperty.infrastructure\\viewmodel\\propertyviewmodels\\propertyaddeditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E74F921E-7FAF-428B-A12D-01D79E53E5BD}|ArmaProperty.Domain\\ArmaProperty.Domain.csproj|f:\\full-stack\\armaproperty\\armaproperty.domain\\constants\\constorderby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E74F921E-7FAF-428B-A12D-01D79E53E5BD}|ArmaProperty.Domain\\ArmaProperty.Domain.csproj|solutionrelative:armaproperty.domain\\constants\\constorderby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E74F921E-7FAF-428B-A12D-01D79E53E5BD}|ArmaProperty.Domain\\ArmaProperty.Domain.csproj|f:\\full-stack\\armaproperty\\armaproperty.domain\\constants\\constmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E74F921E-7FAF-428B-A12D-01D79E53E5BD}|ArmaProperty.Domain\\ArmaProperty.Domain.csproj|solutionrelative:armaproperty.domain\\constants\\constmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E74F921E-7FAF-428B-A12D-01D79E53E5BD}|ArmaProperty.Domain\\ArmaProperty.Domain.csproj|f:\\full-stack\\armaproperty\\armaproperty.domain\\constants\\const.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E74F921E-7FAF-428B-A12D-01D79E53E5BD}|ArmaProperty.Domain\\ArmaProperty.Domain.csproj|solutionrelative:armaproperty.domain\\constants\\const.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E74F921E-7FAF-428B-A12D-01D79E53E5BD}|ArmaProperty.Domain\\ArmaProperty.Domain.csproj|f:\\full-stack\\armaproperty\\armaproperty.domain\\constants\\bodymsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E74F921E-7FAF-428B-A12D-01D79E53E5BD}|ArmaProperty.Domain\\ArmaProperty.Domain.csproj|solutionrelative:armaproperty.domain\\constants\\bodymsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF27CD0-5E20-4285-9FBB-D18506CFD5D0}|ArmaProperty.Infrastructure\\ArmaProperty.Infrastructure.csproj|f:\\full-stack\\armaproperty\\armaproperty.infrastructure\\migrations\\20240705221628_initialdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF27CD0-5E20-4285-9FBB-D18506CFD5D0}|ArmaProperty.Infrastructure\\ArmaProperty.Infrastructure.csproj|solutionrelative:armaproperty.infrastructure\\migrations\\20240705221628_initialdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E74F921E-7FAF-428B-A12D-01D79E53E5BD}|ArmaProperty.Domain\\ArmaProperty.Domain.csproj|f:\\full-stack\\armaproperty\\armaproperty.domain\\iservices\\iservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E74F921E-7FAF-428B-A12D-01D79E53E5BD}|ArmaProperty.Domain\\ArmaProperty.Domain.csproj|solutionrelative:armaproperty.domain\\iservices\\iservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF27CD0-5E20-4285-9FBB-D18506CFD5D0}|ArmaProperty.Infrastructure\\ArmaProperty.Infrastructure.csproj|f:\\full-stack\\armaproperty\\armaproperty.infrastructure\\armaproperty.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9EF27CD0-5E20-4285-9FBB-D18506CFD5D0}|ArmaProperty.Infrastructure\\ArmaProperty.Infrastructure.csproj|solutionrelative:armaproperty.infrastructure\\armaproperty.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty\\Views\\Tenants\\Index.cshtml",
+              "RelativeDocumentMoniker": "ArmaProperty\\Views\\Tenants\\Index.cshtml",
+              "ToolTip": "F:\\full-stack\\ArmaProperty\\ArmaProperty\\Views\\Tenants\\Index.cshtml",
+              "RelativeToolTip": "ArmaProperty\\Views\\Tenants\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-29T23:21:38.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty\\Views\\Tenants\\Create.cshtml",
+              "RelativeDocumentMoniker": "ArmaProperty\\Views\\Tenants\\Create.cshtml",
+              "ToolTip": "F:\\full-stack\\ArmaProperty\\ArmaProperty\\Views\\Tenants\\Create.cshtml",
+              "RelativeToolTip": "ArmaProperty\\Views\\Tenants\\Create.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-29T23:17:07.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty\\Views\\Properties\\Index.cshtml",
+              "RelativeDocumentMoniker": "ArmaProperty\\Views\\Properties\\Index.cshtml",
+              "ToolTip": "F:\\full-stack\\ArmaProperty\\ArmaProperty\\Views\\Properties\\Index.cshtml",
+              "RelativeToolTip": "ArmaProperty\\Views\\Properties\\Index.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-29T23:11:23.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "ArmaProperty\\Views\\_ViewImports.cshtml",
+              "ToolTip": "F:\\full-stack\\ArmaProperty\\ArmaProperty\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "ArmaProperty\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-29T23:08:07.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "ArmaProperty\\Views\\_ViewStart.cshtml",
+              "ToolTip": "F:\\full-stack\\ArmaProperty\\ArmaProperty\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "ArmaProperty\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-29T23:08:06.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty\\Views\\Properties\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ArmaProperty\\Views\\Properties\\Edit.cshtml",
+              "ToolTip": "F:\\full-stack\\ArmaProperty\\ArmaProperty\\Views\\Properties\\Edit.cshtml",
+              "RelativeToolTip": "ArmaProperty\\Views\\Properties\\Edit.cshtml",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-29T23:07:55.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Global.Infrastructure.cs",
+              "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty.Infrastructure\\Global.Infrastructure.cs",
+              "RelativeDocumentMoniker": "ArmaProperty.Infrastructure\\Global.Infrastructure.cs",
+              "ToolTip": "F:\\full-stack\\ArmaProperty\\ArmaProperty.Infrastructure\\Global.Infrastructure.cs",
+              "RelativeToolTip": "ArmaProperty.Infrastructure\\Global.Infrastructure.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T23:07:17.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ArmaProperty.Web",
+              "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty\\ArmaProperty.Web.csproj",
+              "RelativeDocumentMoniker": "ArmaProperty\\ArmaProperty.Web.csproj",
+              "ToolTip": "F:\\full-stack\\ArmaProperty\\ArmaProperty\\ArmaProperty.Web.csproj",
+              "RelativeToolTip": "ArmaProperty\\ArmaProperty.Web.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-29T23:07:16.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TenantViewModel.cs",
+              "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty.Infrastructure\\ViewModel\\TenantViewModel.cs",
+              "RelativeDocumentMoniker": "ArmaProperty.Infrastructure\\ViewModel\\TenantViewModel.cs",
+              "ToolTip": "F:\\full-stack\\ArmaProperty\\ArmaProperty.Infrastructure\\ViewModel\\TenantViewModel.cs",
+              "RelativeToolTip": "ArmaProperty.Infrastructure\\ViewModel\\TenantViewModel.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T23:07:05.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OwnerViewModel.cs",
+              "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty.Infrastructure\\ViewModel\\OwnerViewModel.cs",
+              "RelativeDocumentMoniker": "ArmaProperty.Infrastructure\\ViewModel\\OwnerViewModel.cs",
+              "ToolTip": "F:\\full-stack\\ArmaProperty\\ArmaProperty.Infrastructure\\ViewModel\\OwnerViewModel.cs",
+              "RelativeToolTip": "ArmaProperty.Infrastructure\\ViewModel\\OwnerViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T23:06:45.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty.Infrastructure\\ViewModel\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "ArmaProperty.Infrastructure\\ViewModel\\ErrorViewModel.cs",
+              "ToolTip": "F:\\full-stack\\ArmaProperty\\ArmaProperty.Infrastructure\\ViewModel\\ErrorViewModel.cs",
+              "RelativeToolTip": "ArmaProperty.Infrastructure\\ViewModel\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T23:06:43.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ContractViewModel.cs",
+              "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty.Infrastructure\\ViewModel\\ContractViewModel.cs",
+              "RelativeDocumentMoniker": "ArmaProperty.Infrastructure\\ViewModel\\ContractViewModel.cs",
+              "ToolTip": "F:\\full-stack\\ArmaProperty\\ArmaProperty.Infrastructure\\ViewModel\\ContractViewModel.cs",
+              "RelativeToolTip": "ArmaProperty.Infrastructure\\ViewModel\\ContractViewModel.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T23:06:15.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PropertyListViewModel.cs",
+              "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty.Infrastructure\\ViewModel\\PropertyViewModels\\PropertyListViewModel.cs",
+              "RelativeDocumentMoniker": "ArmaProperty.Infrastructure\\ViewModel\\PropertyViewModels\\PropertyListViewModel.cs",
+              "ToolTip": "F:\\full-stack\\ArmaProperty\\ArmaProperty.Infrastructure\\ViewModel\\PropertyViewModels\\PropertyListViewModel.cs",
+              "RelativeToolTip": "ArmaProperty.Infrastructure\\ViewModel\\PropertyViewModels\\PropertyListViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T23:06:00.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PropertyFiltersViewModel.cs",
+              "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty.Infrastructure\\ViewModel\\PropertyViewModels\\PropertyFiltersViewModel.cs",
+              "RelativeDocumentMoniker": "ArmaProperty.Infrastructure\\ViewModel\\PropertyViewModels\\PropertyFiltersViewModel.cs",
+              "ToolTip": "F:\\full-stack\\ArmaProperty\\ArmaProperty.Infrastructure\\ViewModel\\PropertyViewModels\\PropertyFiltersViewModel.cs",
+              "RelativeToolTip": "ArmaProperty.Infrastructure\\ViewModel\\PropertyViewModels\\PropertyFiltersViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T23:05:55.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PropertyAddEditViewModel.cs",
+              "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty.Infrastructure\\ViewModel\\PropertyViewModels\\PropertyAddEditViewModel.cs",
+              "RelativeDocumentMoniker": "ArmaProperty.Infrastructure\\ViewModel\\PropertyViewModels\\PropertyAddEditViewModel.cs",
+              "ToolTip": "F:\\full-stack\\ArmaProperty\\ArmaProperty.Infrastructure\\ViewModel\\PropertyViewModels\\PropertyAddEditViewModel.cs",
+              "RelativeToolTip": "ArmaProperty.Infrastructure\\ViewModel\\PropertyViewModels\\PropertyAddEditViewModel.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T23:05:15.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ConstOrderBy.cs",
+              "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty.Domain\\Constants\\ConstOrderBy.cs",
+              "RelativeDocumentMoniker": "ArmaProperty.Domain\\Constants\\ConstOrderBy.cs",
+              "ToolTip": "F:\\full-stack\\ArmaProperty\\ArmaProperty.Domain\\Constants\\ConstOrderBy.cs",
+              "RelativeToolTip": "ArmaProperty.Domain\\Constants\\ConstOrderBy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T23:03:42.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ConstMessages.cs",
+              "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty.Domain\\Constants\\ConstMessages.cs",
+              "RelativeDocumentMoniker": "ArmaProperty.Domain\\Constants\\ConstMessages.cs",
+              "ToolTip": "F:\\full-stack\\ArmaProperty\\ArmaProperty.Domain\\Constants\\ConstMessages.cs",
+              "RelativeToolTip": "ArmaProperty.Domain\\Constants\\ConstMessages.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T23:03:36.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20240705221628_InitialData.cs",
+              "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty.Infrastructure\\Migrations\\20240705221628_InitialData.cs",
+              "RelativeDocumentMoniker": "ArmaProperty.Infrastructure\\Migrations\\20240705221628_InitialData.cs",
+              "ToolTip": "F:\\full-stack\\ArmaProperty\\ArmaProperty.Infrastructure\\Migrations\\20240705221628_InitialData.cs",
+              "RelativeToolTip": "ArmaProperty.Infrastructure\\Migrations\\20240705221628_InitialData.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T23:01:02.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IServices.cs",
+              "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty.Domain\\IServices\\IServices.cs",
+              "RelativeDocumentMoniker": "ArmaProperty.Domain\\IServices\\IServices.cs",
+              "ToolTip": "F:\\full-stack\\ArmaProperty\\ArmaProperty.Domain\\IServices\\IServices.cs",
+              "RelativeToolTip": "ArmaProperty.Domain\\IServices\\IServices.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA7wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T22:41:20.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Const.cs",
+              "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty.Domain\\Constants\\Const.cs",
+              "RelativeDocumentMoniker": "ArmaProperty.Domain\\Constants\\Const.cs",
+              "ToolTip": "F:\\full-stack\\ArmaProperty\\ArmaProperty.Domain\\Constants\\Const.cs",
+              "RelativeToolTip": "ArmaProperty.Domain\\Constants\\Const.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T22:40:32.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BodyMsg.cs",
+              "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty.Domain\\Constants\\BodyMsg.cs",
+              "RelativeDocumentMoniker": "ArmaProperty.Domain\\Constants\\BodyMsg.cs",
+              "ToolTip": "F:\\full-stack\\ArmaProperty\\ArmaProperty.Domain\\Constants\\BodyMsg.cs",
+              "RelativeToolTip": "ArmaProperty.Domain\\Constants\\BodyMsg.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T22:40:18.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cf7341e6-9713-4309-bea6-cdb743e1804d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f53-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ArmaProperty.Infrastructure.csproj",
+              "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty.Infrastructure\\ArmaProperty.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "ArmaProperty.Infrastructure\\ArmaProperty.Infrastructure.csproj",
+              "ToolTip": "F:\\full-stack\\ArmaProperty\\ArmaProperty.Infrastructure\\ArmaProperty.Infrastructure.csproj",
+              "RelativeToolTip": "ArmaProperty.Infrastructure\\ArmaProperty.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-09T16:40:26.052Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
