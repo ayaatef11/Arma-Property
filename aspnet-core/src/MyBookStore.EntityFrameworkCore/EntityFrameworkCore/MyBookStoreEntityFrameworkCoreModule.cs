@@ -16,7 +16,7 @@ using Volo.Abp.TenantManagement.EntityFrameworkCore;
 namespace MyBookStore.EntityFrameworkCore;
 
 [DependsOn(
-    typeof(MyBookStoreDomainModule),
+    typeof(ArmaPropertyDomainModule),
     typeof(AbpIdentityEntityFrameworkCoreModule),
     typeof(AbpOpenIddictEntityFrameworkCoreModule),
     typeof(AbpPermissionManagementEntityFrameworkCoreModule),

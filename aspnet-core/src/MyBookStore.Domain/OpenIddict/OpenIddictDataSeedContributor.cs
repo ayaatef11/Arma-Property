@@ -21,33 +21,22 @@ namespace MyBookStore.OpenIddict;
 /* Creates initial data that is needed to property run the application
  * and make client-to-server communication possible.
  */
-public class OpenIddictDataSeedContributor : IDataSeedContributor, ITransientDependency
+public class OpenIddictDataSeedContributor(
+    IConfiguration configuration,
+    IOpenIddictApplicationRepository openIddictApplicationRepository,
+    IAbpApplicationManager applicationManager,
+    IOpenIddictScopeRepository openIddictScopeRepository,
+    IOpenIddictScopeManager scopeManager,
+    IPermissionDataSeeder permissionDataSeeder,
+    IStringLocalizer<OpenIddictResponse> l) : IDataSeedContributor, ITransientDependency
 {
-    private readonly IConfiguration _configuration;
-    private readonly IOpenIddictApplicationRepository _openIddictApplicationRepository;
-    private readonly IAbpApplicationManager _applicationManager;
-    private readonly IOpenIddictScopeRepository _openIddictScopeRepository;
-    private readonly IOpenIddictScopeManager _scopeManager;
-    private readonly IPermissionDataSeeder _permissionDataSeeder;
-    private readonly IStringLocalizer<OpenIddictResponse> L;
-
-    public OpenIddictDataSeedContributor(
-        IConfiguration configuration,
-        IOpenIddictApplicationRepository openIddictApplicationRepository,
-        IAbpApplicationManager applicationManager,
-        IOpenIddictScopeRepository openIddictScopeRepository,
-        IOpenIddictScopeManager scopeManager,
-        IPermissionDataSeeder permissionDataSeeder,
-        IStringLocalizer<OpenIddictResponse> l )
-    {
-        _configuration = configuration;
-        _openIddictApplicationRepository = openIddictApplicationRepository;
-        _applicationManager = applicationManager;
-        _openIddictScopeRepository = openIddictScopeRepository;
-        _scopeManager = scopeManager;
-        _permissionDataSeeder = permissionDataSeeder;
-        L = l;
-    }
+    private readonly IConfiguration _configuration = configuration;
+    private readonly IOpenIddictApplicationRepository _openIddictApplicationRepository = openIddictApplicationRepository;
+    private readonly IAbpApplicationManager _applicationManager = applicationManager;
+    private readonly IOpenIddictScopeRepository _openIddictScopeRepository = openIddictScopeRepository;
+    private readonly IOpenIddictScopeManager _scopeManager = scopeManager;
+    private readonly IPermissionDataSeeder _permissionDataSeeder = permissionDataSeeder;
+    private readonly IStringLocalizer<OpenIddictResponse> L = l;
 
     [UnitOfWork]
     public virtual async Task SeedAsync(DataSeedContext context)

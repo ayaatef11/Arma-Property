@@ -32,7 +32,7 @@ public class Program
             builder.Host.AddAppSettingsSecretsJson()
                 .UseAutofac()
                 .UseSerilog();
-            await builder.AddApplicationAsync<MyBookStoreHttpApiHostModule>();
+            await builder.AddApplicationAsync<ArmaPropertyHttpApiHostModule>();
             var app = builder.Build();
             await app.InitializeApplicationAsync();
             await app.RunAsync();
@@ -52,5 +52,14 @@ public class Program
         {
             Log.CloseAndFlush();
         }
+
+
+
+
+
+
+
+
+
     }
 }

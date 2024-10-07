@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\MyBookStore.Application\MyBookStore.Application.csproj" />
+    <ProjectReference Include="..\..\src\MyBookStore.Application\ArmaProperty.Application.csproj" />
     <ProjectReference Include="..\MyBookStore.Domain.Tests\MyBookStore.Domain.Tests.csproj" />
   </ItemGroup>
 

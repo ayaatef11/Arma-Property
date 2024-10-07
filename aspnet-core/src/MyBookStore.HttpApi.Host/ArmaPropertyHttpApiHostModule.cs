@@ -43,7 +43,7 @@ namespace MyBookStore;
     typeof(AbpAspNetCoreSerilogModule),
     typeof(AbpSwashbuckleModule)
 )]
-public class MyBookStoreHttpApiHostModule : AbpModule
+public class ArmaPropertyHttpApiHostModule : AbpModule
 {
     public override void PreConfigureServices(ServiceConfigurationContext context)
     {
@@ -118,7 +118,7 @@ public class MyBookStoreHttpApiHostModule : AbpModule
                 options.FileSets.ReplaceEmbeddedByPhysical<MyBookStoreDomainSharedModule>(
                     Path.Combine(hostingEnvironment.ContentRootPath,
                         $"..{Path.DirectorySeparatorChar}MyBookStore.Domain.Shared"));
-                options.FileSets.ReplaceEmbeddedByPhysical<MyBookStoreDomainModule>(
+                options.FileSets.ReplaceEmbeddedByPhysical<ArmaPropertyDomainModule>(
                     Path.Combine(hostingEnvironment.ContentRootPath,
                         $"..{Path.DirectorySeparatorChar}MyBookStore.Domain"));
                 options.FileSets.ReplaceEmbeddedByPhysical<MyBookStoreApplicationContractsModule>(

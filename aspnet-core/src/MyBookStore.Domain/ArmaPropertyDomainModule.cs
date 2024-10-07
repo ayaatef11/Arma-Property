@@ -30,7 +30,7 @@ namespace MyBookStore;
     typeof(AbpTenantManagementDomainModule),
     typeof(AbpEmailingModule)
 )]
-public class MyBookStoreDomainModule : AbpModule
+public class ArmaPropertyDomainModule : AbpModule
 {
     public override void ConfigureServices(ServiceConfigurationContext context)
     {

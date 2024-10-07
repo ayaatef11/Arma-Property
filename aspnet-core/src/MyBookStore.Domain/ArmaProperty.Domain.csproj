@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <Import Project="..\..\common.props" />
 
@@ -6,13 +6,19 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <RootNamespace>MyBookStore</RootNamespace>
+    <UserSecretsId>e76bb696-2710-4042-9e3d-366034b532c0</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MyBookStore.Domain.Shared\MyBookStore.Domain.Shared.csproj" />
+    <ProjectReference Include="..\MyBookStore.Domain.Shared\ArmaProperty.Domain.Shared.csproj" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Volo.Abp.Emailing" Version="8.3.0" />
     <PackageReference Include="Volo.Abp.Identity.Domain" Version="8.3.0" />
     <PackageReference Include="Volo.Abp.PermissionManagement.Domain.Identity" Version="8.3.0" />
@@ -26,7 +32,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
+    <Folder Include="EntityFramework\EntityTypeConfigurations\" />
   </ItemGroup>
 
 </Project>

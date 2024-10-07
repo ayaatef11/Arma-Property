@@ -10,7 +10,7 @@ using Volo.Abp.TenantManagement;
 namespace MyBookStore;
 
 [DependsOn(
-    typeof(MyBookStoreDomainModule),
+    typeof(ArmaPropertyDomainModule),
     typeof(AbpAccountApplicationModule),
     typeof(MyBookStoreApplicationContractsModule),
     typeof(AbpIdentityApplicationModule),

@@ -1,6 +1,6 @@
 ﻿namespace MyBookStore;
 
-public static class MyBookStoreConsts
+public static class ArmaPropertyConsts
 {
     public const string DbTablePrefix = "App";
 

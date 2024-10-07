@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <Import Project="..\..\common.props" />
 
@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MyBookStore.Domain.Shared\MyBookStore.Domain.Shared.csproj" />
+    <ProjectReference Include="..\MyBookStore.Domain.Shared\ArmaProperty.Domain.Shared.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -3,7 +3,7 @@
 namespace MyBookStore;
 
 [DependsOn(
-    typeof(MyBookStoreDomainModule),
+    typeof(ArmaPropertyDomainModule),
     typeof(MyBookStoreTestBaseModule)
 )]
 public class MyBookStoreDomainTestModule : AbpModule

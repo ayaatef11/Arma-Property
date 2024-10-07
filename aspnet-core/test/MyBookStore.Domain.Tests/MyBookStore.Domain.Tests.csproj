@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\MyBookStore.Domain\MyBookStore.Domain.csproj" />
+    <ProjectReference Include="..\..\src\MyBookStore.Domain\ArmaProperty.Domain.csproj" />
     <ProjectReference Include="..\MyBookStore.TestBase\MyBookStore.TestBase.csproj" />
   </ItemGroup>
 

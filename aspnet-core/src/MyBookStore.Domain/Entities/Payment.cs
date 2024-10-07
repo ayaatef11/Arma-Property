@@ -1,9 +1,8 @@
 ﻿
 namespace ArmaProperty.Domain.Entities
 {
-    public  class Payment
+    public  class Payment : Entity<int>
     {
-        public int Id { get; set; }
 
         public string Name { get; set; } = null!;
         public int ContractDetailsId { get; set; }

@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\MyBookStore.EntityFrameworkCore\MyBookStore.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\..\src\MyBookStore.EntityFrameworkCore\ArmaProperty.EntityFrameworkCore.csproj" />
     <ProjectReference Include="..\MyBookStore.Application.Tests\MyBookStore.Application.Tests.csproj" />
     <PackageReference Include="Volo.Abp.EntityFrameworkCore.Sqlite" Version="8.3.0" />
   </ItemGroup>

@@ -3,8 +3,56 @@
   "WorkspaceRootPath": "F:\\full-stack\\ArmaProperty\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B2422E29-E011-4CB3-A8E6-23D5615135FD}|ArmaProperty\\ArmaProperty.Web.csproj|f:\\full-stack\\armaproperty\\armaproperty\\wwwroot\\dist\\js\\adminlte.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B2422E29-E011-4CB3-A8E6-23D5615135FD}|ArmaProperty\\ArmaProperty.Web.csproj|solutionrelative:armaproperty\\wwwroot\\dist\\js\\adminlte.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2422E29-E011-4CB3-A8E6-23D5615135FD}|ArmaProperty\\ArmaProperty.Web.csproj|f:\\full-stack\\armaproperty\\armaproperty\\wwwroot\\dist\\css\\custom.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B2422E29-E011-4CB3-A8E6-23D5615135FD}|ArmaProperty\\ArmaProperty.Web.csproj|solutionrelative:armaproperty\\wwwroot\\dist\\css\\custom.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2422E29-E011-4CB3-A8E6-23D5615135FD}|ArmaProperty\\ArmaProperty.Web.csproj|f:\\full-stack\\armaproperty\\armaproperty\\wwwroot\\dist\\css\\adminlte.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B2422E29-E011-4CB3-A8E6-23D5615135FD}|ArmaProperty\\ArmaProperty.Web.csproj|solutionrelative:armaproperty\\wwwroot\\dist\\css\\adminlte.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2422E29-E011-4CB3-A8E6-23D5615135FD}|ArmaProperty\\ArmaProperty.Web.csproj|f:\\full-stack\\armaproperty\\armaproperty\\wwwroot\\dist\\css\\bootstrap-rtl.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B2422E29-E011-4CB3-A8E6-23D5615135FD}|ArmaProperty\\ArmaProperty.Web.csproj|solutionrelative:armaproperty\\wwwroot\\dist\\css\\bootstrap-rtl.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2422E29-E011-4CB3-A8E6-23D5615135FD}|ArmaProperty\\ArmaProperty.Web.csproj|f:\\full-stack\\armaproperty\\armaproperty\\wwwroot\\js\\properties\\propertiesindex.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B2422E29-E011-4CB3-A8E6-23D5615135FD}|ArmaProperty\\ArmaProperty.Web.csproj|solutionrelative:armaproperty\\wwwroot\\js\\properties\\propertiesindex.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2422E29-E011-4CB3-A8E6-23D5615135FD}|ArmaProperty\\ArmaProperty.Web.csproj|f:\\full-stack\\armaproperty\\armaproperty\\wwwroot\\images\\loader\\loading__.gif||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{B2422E29-E011-4CB3-A8E6-23D5615135FD}|ArmaProperty\\ArmaProperty.Web.csproj|solutionrelative:armaproperty\\wwwroot\\images\\loader\\loading__.gif||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2422E29-E011-4CB3-A8E6-23D5615135FD}|ArmaProperty\\ArmaProperty.Web.csproj|f:\\full-stack\\armaproperty\\armaproperty\\wwwroot\\images\\loader\\87tpa.gif||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{B2422E29-E011-4CB3-A8E6-23D5615135FD}|ArmaProperty\\ArmaProperty.Web.csproj|solutionrelative:armaproperty\\wwwroot\\images\\loader\\87tpa.gif||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2422E29-E011-4CB3-A8E6-23D5615135FD}|ArmaProperty\\ArmaProperty.Web.csproj|f:\\full-stack\\armaproperty\\armaproperty\\wwwroot\\images\\loader\\03-42-11-849_512.gif||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{B2422E29-E011-4CB3-A8E6-23D5615135FD}|ArmaProperty\\ArmaProperty.Web.csproj|solutionrelative:armaproperty\\wwwroot\\images\\loader\\03-42-11-849_512.gif||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B2422E29-E011-4CB3-A8E6-23D5615135FD}|ArmaProperty\\ArmaProperty.Web.csproj|f:\\full-stack\\armaproperty\\armaproperty\\views\\tenants\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B2422E29-E011-4CB3-A8E6-23D5615135FD}|ArmaProperty\\ArmaProperty.Web.csproj|solutionrelative:armaproperty\\views\\tenants\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2422E29-E011-4CB3-A8E6-23D5615135FD}|ArmaProperty\\ArmaProperty.Web.csproj|f:\\full-stack\\armaproperty\\armaproperty\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2422E29-E011-4CB3-A8E6-23D5615135FD}|ArmaProperty\\ArmaProperty.Web.csproj|solutionrelative:armaproperty\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2422E29-E011-4CB3-A8E6-23D5615135FD}|ArmaProperty\\ArmaProperty.Web.csproj|f:\\full-stack\\armaproperty\\armaproperty\\views\\shared\\_head.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2422E29-E011-4CB3-A8E6-23D5615135FD}|ArmaProperty\\ArmaProperty.Web.csproj|solutionrelative:armaproperty\\views\\shared\\_head.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2422E29-E011-4CB3-A8E6-23D5615135FD}|ArmaProperty\\ArmaProperty.Web.csproj|f:\\full-stack\\armaproperty\\armaproperty\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2422E29-E011-4CB3-A8E6-23D5615135FD}|ArmaProperty\\ArmaProperty.Web.csproj|solutionrelative:armaproperty\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2422E29-E011-4CB3-A8E6-23D5615135FD}|ArmaProperty\\ArmaProperty.Web.csproj|f:\\full-stack\\armaproperty\\armaproperty\\views\\shared\\_alertmsg.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2422E29-E011-4CB3-A8E6-23D5615135FD}|ArmaProperty\\ArmaProperty.Web.csproj|solutionrelative:armaproperty\\views\\shared\\_alertmsg.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B2422E29-E011-4CB3-A8E6-23D5615135FD}|ArmaProperty\\ArmaProperty.Web.csproj|f:\\full-stack\\armaproperty\\armaproperty\\views\\tenants\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -103,19 +151,172 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "adminlte.js",
+              "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty\\wwwroot\\dist\\js\\adminlte.js",
+              "RelativeDocumentMoniker": "ArmaProperty\\wwwroot\\dist\\js\\adminlte.js",
+              "ToolTip": "F:\\full-stack\\ArmaProperty\\ArmaProperty\\wwwroot\\dist\\js\\adminlte.js",
+              "RelativeToolTip": "ArmaProperty\\wwwroot\\dist\\js\\adminlte.js",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-29T23:57:24.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "custom.css",
+              "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty\\wwwroot\\dist\\css\\custom.css",
+              "RelativeDocumentMoniker": "ArmaProperty\\wwwroot\\dist\\css\\custom.css",
+              "ToolTip": "F:\\full-stack\\ArmaProperty\\ArmaProperty\\wwwroot\\dist\\css\\custom.css",
+              "RelativeToolTip": "ArmaProperty\\wwwroot\\dist\\css\\custom.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-29T23:57:18.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "adminlte.css",
+              "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty\\wwwroot\\dist\\css\\adminlte.css",
+              "RelativeDocumentMoniker": "ArmaProperty\\wwwroot\\dist\\css\\adminlte.css",
+              "ToolTip": "F:\\full-stack\\ArmaProperty\\ArmaProperty\\wwwroot\\dist\\css\\adminlte.css",
+              "RelativeToolTip": "ArmaProperty\\wwwroot\\dist\\css\\adminlte.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-29T23:57:15.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "bootstrap-rtl.min.css",
+              "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty\\wwwroot\\dist\\css\\bootstrap-rtl.min.css",
+              "RelativeDocumentMoniker": "ArmaProperty\\wwwroot\\dist\\css\\bootstrap-rtl.min.css",
+              "ToolTip": "F:\\full-stack\\ArmaProperty\\ArmaProperty\\wwwroot\\dist\\css\\bootstrap-rtl.min.css",
+              "RelativeToolTip": "ArmaProperty\\wwwroot\\dist\\css\\bootstrap-rtl.min.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-29T23:57:13.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PropertiesIndex.js",
+              "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty\\wwwroot\\js\\Properties\\PropertiesIndex.js",
+              "RelativeDocumentMoniker": "ArmaProperty\\wwwroot\\js\\Properties\\PropertiesIndex.js",
+              "ToolTip": "F:\\full-stack\\ArmaProperty\\ArmaProperty\\wwwroot\\js\\Properties\\PropertiesIndex.js",
+              "RelativeToolTip": "ArmaProperty\\wwwroot\\js\\Properties\\PropertiesIndex.js",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-29T23:48:31.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "loading__.gif",
+              "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty\\wwwroot\\Images\\Loader\\loading__.gif",
+              "RelativeDocumentMoniker": "ArmaProperty\\wwwroot\\Images\\Loader\\loading__.gif",
+              "ToolTip": "F:\\full-stack\\ArmaProperty\\ArmaProperty\\wwwroot\\Images\\Loader\\loading__.gif",
+              "RelativeToolTip": "ArmaProperty\\wwwroot\\Images\\Loader\\loading__.gif",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-09-29T23:56:39.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "87Tpa.gif",
+              "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty\\wwwroot\\Images\\Loader\\87Tpa.gif",
+              "RelativeDocumentMoniker": "ArmaProperty\\wwwroot\\Images\\Loader\\87Tpa.gif",
+              "ToolTip": "F:\\full-stack\\ArmaProperty\\ArmaProperty\\wwwroot\\Images\\Loader\\87Tpa.gif",
+              "RelativeToolTip": "ArmaProperty\\wwwroot\\Images\\Loader\\87Tpa.gif",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-09-29T23:56:32.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "03-42-11-849_512.gif",
+              "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty\\wwwroot\\Images\\Loader\\03-42-11-849_512.gif",
+              "RelativeDocumentMoniker": "ArmaProperty\\wwwroot\\Images\\Loader\\03-42-11-849_512.gif",
+              "ToolTip": "F:\\full-stack\\ArmaProperty\\ArmaProperty\\wwwroot\\Images\\Loader\\03-42-11-849_512.gif",
+              "RelativeToolTip": "ArmaProperty\\wwwroot\\Images\\Loader\\03-42-11-849_512.gif",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-09-29T23:56:22.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty\\Views\\Tenants\\Index.cshtml",
               "RelativeDocumentMoniker": "ArmaProperty\\Views\\Tenants\\Index.cshtml",
               "ToolTip": "F:\\full-stack\\ArmaProperty\\ArmaProperty\\Views\\Tenants\\Index.cshtml",
               "RelativeToolTip": "ArmaProperty\\Views\\Tenants\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAABsAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-29T23:21:38.459Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
+              "Title": "_Header.cshtml",
+              "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty\\Views\\Shared\\_Header.cshtml",
+              "RelativeDocumentMoniker": "ArmaProperty\\Views\\Shared\\_Header.cshtml",
+              "ToolTip": "F:\\full-stack\\ArmaProperty\\ArmaProperty\\Views\\Shared\\_Header.cshtml",
+              "RelativeToolTip": "ArmaProperty\\Views\\Shared\\_Header.cshtml",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-29T23:39:45.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Head.cshtml",
+              "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty\\Views\\Shared\\_Head.cshtml",
+              "RelativeDocumentMoniker": "ArmaProperty\\Views\\Shared\\_Head.cshtml",
+              "ToolTip": "F:\\full-stack\\ArmaProperty\\ArmaProperty\\Views\\Shared\\_Head.cshtml",
+              "RelativeToolTip": "ArmaProperty\\Views\\Shared\\_Head.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-29T23:38:04.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Footer.cshtml",
+              "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty\\Views\\Shared\\_Footer.cshtml",
+              "RelativeDocumentMoniker": "ArmaProperty\\Views\\Shared\\_Footer.cshtml",
+              "ToolTip": "F:\\full-stack\\ArmaProperty\\ArmaProperty\\Views\\Shared\\_Footer.cshtml",
+              "RelativeToolTip": "ArmaProperty\\Views\\Shared\\_Footer.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-29T23:38:01.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_AlertMsg.cshtml",
+              "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty\\Views\\Shared\\_AlertMsg.cshtml",
+              "RelativeDocumentMoniker": "ArmaProperty\\Views\\Shared\\_AlertMsg.cshtml",
+              "ToolTip": "F:\\full-stack\\ArmaProperty\\ArmaProperty\\Views\\Shared\\_AlertMsg.cshtml",
+              "RelativeToolTip": "ArmaProperty\\Views\\Shared\\_AlertMsg.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-29T23:37:43.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Create.cshtml",
               "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty\\Views\\Tenants\\Create.cshtml",
               "RelativeDocumentMoniker": "ArmaProperty\\Views\\Tenants\\Create.cshtml",
@@ -128,7 +329,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 14,
               "Title": "Index.cshtml",
               "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty\\Views\\Properties\\Index.cshtml",
               "RelativeDocumentMoniker": "ArmaProperty\\Views\\Properties\\Index.cshtml",
@@ -141,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 16,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "ArmaProperty\\Views\\_ViewImports.cshtml",
@@ -154,7 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 17,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "ArmaProperty\\Views\\_ViewStart.cshtml",
@@ -167,7 +368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 15,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty\\Views\\Properties\\Edit.cshtml",
               "RelativeDocumentMoniker": "ArmaProperty\\Views\\Properties\\Edit.cshtml",
@@ -180,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 18,
               "Title": "Global.Infrastructure.cs",
               "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty.Infrastructure\\Global.Infrastructure.cs",
               "RelativeDocumentMoniker": "ArmaProperty.Infrastructure\\Global.Infrastructure.cs",
@@ -193,7 +394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 19,
               "Title": "ArmaProperty.Web",
               "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty\\ArmaProperty.Web.csproj",
               "RelativeDocumentMoniker": "ArmaProperty\\ArmaProperty.Web.csproj",
@@ -206,7 +407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 20,
               "Title": "TenantViewModel.cs",
               "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty.Infrastructure\\ViewModel\\TenantViewModel.cs",
               "RelativeDocumentMoniker": "ArmaProperty.Infrastructure\\ViewModel\\TenantViewModel.cs",
@@ -219,7 +420,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 21,
               "Title": "OwnerViewModel.cs",
               "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty.Infrastructure\\ViewModel\\OwnerViewModel.cs",
               "RelativeDocumentMoniker": "ArmaProperty.Infrastructure\\ViewModel\\OwnerViewModel.cs",
@@ -232,7 +433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 22,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty.Infrastructure\\ViewModel\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "ArmaProperty.Infrastructure\\ViewModel\\ErrorViewModel.cs",
@@ -245,7 +446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 23,
               "Title": "ContractViewModel.cs",
               "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty.Infrastructure\\ViewModel\\ContractViewModel.cs",
               "RelativeDocumentMoniker": "ArmaProperty.Infrastructure\\ViewModel\\ContractViewModel.cs",
@@ -258,7 +459,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 24,
               "Title": "PropertyListViewModel.cs",
               "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty.Infrastructure\\ViewModel\\PropertyViewModels\\PropertyListViewModel.cs",
               "RelativeDocumentMoniker": "ArmaProperty.Infrastructure\\ViewModel\\PropertyViewModels\\PropertyListViewModel.cs",
@@ -271,7 +472,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 25,
               "Title": "PropertyFiltersViewModel.cs",
               "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty.Infrastructure\\ViewModel\\PropertyViewModels\\PropertyFiltersViewModel.cs",
               "RelativeDocumentMoniker": "ArmaProperty.Infrastructure\\ViewModel\\PropertyViewModels\\PropertyFiltersViewModel.cs",
@@ -284,7 +485,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 26,
               "Title": "PropertyAddEditViewModel.cs",
               "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty.Infrastructure\\ViewModel\\PropertyViewModels\\PropertyAddEditViewModel.cs",
               "RelativeDocumentMoniker": "ArmaProperty.Infrastructure\\ViewModel\\PropertyViewModels\\PropertyAddEditViewModel.cs",
@@ -297,7 +498,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 27,
               "Title": "ConstOrderBy.cs",
               "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty.Domain\\Constants\\ConstOrderBy.cs",
               "RelativeDocumentMoniker": "ArmaProperty.Domain\\Constants\\ConstOrderBy.cs",
@@ -310,7 +511,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 28,
               "Title": "ConstMessages.cs",
               "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty.Domain\\Constants\\ConstMessages.cs",
               "RelativeDocumentMoniker": "ArmaProperty.Domain\\Constants\\ConstMessages.cs",
@@ -323,7 +524,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 31,
               "Title": "20240705221628_InitialData.cs",
               "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty.Infrastructure\\Migrations\\20240705221628_InitialData.cs",
               "RelativeDocumentMoniker": "ArmaProperty.Infrastructure\\Migrations\\20240705221628_InitialData.cs",
@@ -336,7 +537,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 32,
               "Title": "IServices.cs",
               "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty.Domain\\IServices\\IServices.cs",
               "RelativeDocumentMoniker": "ArmaProperty.Domain\\IServices\\IServices.cs",
@@ -349,7 +550,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 29,
               "Title": "Const.cs",
               "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty.Domain\\Constants\\Const.cs",
               "RelativeDocumentMoniker": "ArmaProperty.Domain\\Constants\\Const.cs",
@@ -362,7 +563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 30,
               "Title": "BodyMsg.cs",
               "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty.Domain\\Constants\\BodyMsg.cs",
               "RelativeDocumentMoniker": "ArmaProperty.Domain\\Constants\\BodyMsg.cs",
@@ -391,7 +592,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 33,
               "Title": "ArmaProperty.Infrastructure.csproj",
               "DocumentMoniker": "F:\\full-stack\\ArmaProperty\\ArmaProperty.Infrastructure\\ArmaProperty.Infrastructure.csproj",
               "RelativeDocumentMoniker": "ArmaProperty.Infrastructure\\ArmaProperty.Infrastructure.csproj",

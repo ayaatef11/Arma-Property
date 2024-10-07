@@ -31,8 +31,8 @@
 
   <ItemGroup>
     <PackageReference Include="Volo.Abp.Autofac" Version="8.3.0" />
-    <ProjectReference Include="..\MyBookStore.Application.Contracts\MyBookStore.Application.Contracts.csproj" />
-    <ProjectReference Include="..\MyBookStore.EntityFrameworkCore\MyBookStore.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\MyBookStore.Application.Contracts\ArmaProperty.Application.Contracts.csproj" />
+    <ProjectReference Include="..\MyBookStore.EntityFrameworkCore\ArmaProperty.EntityFrameworkCore.csproj" />
   </ItemGroup>
 
   <ItemGroup>

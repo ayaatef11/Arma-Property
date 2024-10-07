@@ -2,9 +2,8 @@
 namespace ArmaProperty.Domain.Entities
 {
     [Index(nameof(Name), IsUnique = true)]
-    public class Property
+    public class Property : Entity<int>
     {
-        public int Id { get; set; }
 
         public int OwnerId { get; set; }
         [ForeignKey(nameof(OwnerId))]

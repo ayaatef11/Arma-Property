@@ -6,11 +6,11 @@ using Volo.Abp.Ui.Branding;
 namespace MyBookStore;
 
 [Dependency(ReplaceServices = true)]
-public class MyBookStoreBrandingProvider : DefaultBrandingProvider
+public class ArmaPropertyBrandingProvider : DefaultBrandingProvider
 {
     private IStringLocalizer<MyBookStoreResource> _localizer;
 
-    public MyBookStoreBrandingProvider(IStringLocalizer<MyBookStoreResource> localizer)
+    public ArmaPropertyBrandingProvider(IStringLocalizer<MyBookStoreResource> localizer)
     {
         _localizer = localizer;
     }
