@@ -16,7 +16,7 @@ namespace MyBookStore.EntityFrameworkCore;
 
 [DependsOn(
     typeof(MyBookStoreApplicationTestModule),
-    typeof(MyBookStoreEntityFrameworkCoreModule),
+    typeof(ArmaPropertyEntityFrameworkCoreModule),
     typeof(AbpEntityFrameworkCoreSqliteModule)
     )]
 public class MyBookStoreEntityFrameworkCoreTestModule : AbpModule
@@ -68,11 +68,11 @@ public class MyBookStoreEntityFrameworkCoreTestModule : AbpModule
         var connection = new AbpUnitTestSqliteConnection("Data Source=:memory:");
         connection.Open();
 
-        var options = new DbContextOptionsBuilder<MyBookStoreDbContext>()
+        var options = new DbContextOptionsBuilder<ArmaPropertyDbContext>()
             .UseSqlite(connection)
             .Options;
 
-        using (var context = new MyBookStoreDbContext(options))
+        using (var context = new ArmaPropertyDbContext(options))
         {
             context.GetService<IRelationalDatabaseCreator>().CreateTables();
         }

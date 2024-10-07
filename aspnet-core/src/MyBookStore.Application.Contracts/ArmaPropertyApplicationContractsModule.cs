@@ -10,7 +10,7 @@ using Volo.Abp.TenantManagement;
 namespace MyBookStore;
 
 [DependsOn(
-    typeof(MyBookStoreDomainSharedModule),
+    typeof(ArmaPropertyDomainSharedModule),
     typeof(AbpAccountApplicationContractsModule),
     typeof(AbpFeatureManagementApplicationContractsModule),
     typeof(AbpIdentityApplicationContractsModule),
@@ -19,10 +19,10 @@ namespace MyBookStore;
     typeof(AbpTenantManagementApplicationContractsModule),
     typeof(AbpObjectExtendingModule)
 )]
-public class MyBookStoreApplicationContractsModule : AbpModule
+public class ArmaPropertyApplicationContractsModule : AbpModule
 {
     public override void PreConfigureServices(ServiceConfigurationContext context)
     {
-        MyBookStoreDtoExtensions.Configure();
+        ArmaPropertyDtoExtensions.Configure();
     }
 }

@@ -11,7 +11,7 @@ using Volo.Abp.VirtualFileSystem;
 namespace MyBookStore;
 
 [DependsOn(
-    typeof(MyBookStoreApplicationContractsModule),
+    typeof(ArmaPropertyApplicationContractsModule),
     typeof(AbpAccountHttpApiClientModule),
     typeof(AbpIdentityHttpApiClientModule),
     typeof(AbpPermissionManagementHttpApiClientModule),
@@ -26,7 +26,7 @@ public class MyBookStoreHttpApiClientModule : AbpModule
     public override void ConfigureServices(ServiceConfigurationContext context)
     {
         context.Services.AddHttpClientProxies(
-            typeof(MyBookStoreApplicationContractsModule).Assembly,
+            typeof(ArmaPropertyApplicationContractsModule).Assembly,
             RemoteServiceName
         );
 

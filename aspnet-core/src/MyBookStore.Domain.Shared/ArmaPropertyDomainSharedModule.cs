@@ -25,34 +25,34 @@ namespace MyBookStore;
     typeof(AbpSettingManagementDomainSharedModule),
     typeof(AbpTenantManagementDomainSharedModule)    
     )]
-public class MyBookStoreDomainSharedModule : AbpModule
+public class ArmaPropertyDomainSharedModule : AbpModule
 {
     public override void PreConfigureServices(ServiceConfigurationContext context)
     {
-        MyBookStoreGlobalFeatureConfigurator.Configure();
-        MyBookStoreModuleExtensionConfigurator.Configure();
+        ArmaPropertyGlobalFeatureConfigurator.Configure();
+        ArmaPropertyModuleExtensionConfigurator.Configure();
     }
 
     public override void ConfigureServices(ServiceConfigurationContext context)
     {
         Configure<AbpVirtualFileSystemOptions>(options =>
         {
-            options.FileSets.AddEmbedded<MyBookStoreDomainSharedModule>();
+            options.FileSets.AddEmbedded<ArmaPropertyDomainSharedModule>();
         });
 
         Configure<AbpLocalizationOptions>(options =>
         {
             options.Resources
-                .Add<MyBookStoreResource>("en")
+                .Add<ArmaPropertyResource>("en")
                 .AddBaseTypes(typeof(AbpValidationResource))
                 .AddVirtualJson("/Localization/MyBookStore");
 
-            options.DefaultResourceType = typeof(MyBookStoreResource);
+            options.DefaultResourceType = typeof(ArmaPropertyResource);
         });
 
         Configure<AbpExceptionLocalizationOptions>(options =>
         {
-            options.MapCodeNamespace("MyBookStore", typeof(MyBookStoreResource));
+            options.MapCodeNamespace("MyBookStore", typeof(ArmaPropertyResource));
         });
     }
 }

@@ -14,26 +14,23 @@ using Volo.Abp.PermissionManagement.Identity;
 using Volo.Abp.PermissionManagement.OpenIddict;
 using Volo.Abp.SettingManagement;
 using Volo.Abp.TenantManagement;
-
+using Volo.Abp.EntityFrameworkCore;
+using Volo.Abp.EntityFrameworkCore.SqlServer;
 namespace MyBookStore;
 
 [DependsOn(
-    typeof(MyBookStoreDomainSharedModule),
-    typeof(AbpAuditLoggingDomainModule),
-    typeof(AbpBackgroundJobsDomainModule),
-    typeof(AbpFeatureManagementDomainModule),
-    typeof(AbpIdentityDomainModule),
-    typeof(AbpOpenIddictDomainModule),
-    typeof(AbpPermissionManagementDomainOpenIddictModule),
-    typeof(AbpPermissionManagementDomainIdentityModule),
-    typeof(AbpSettingManagementDomainModule),
-    typeof(AbpTenantManagementDomainModule),
-    typeof(AbpEmailingModule)
+    typeof(ArmaPropertyDomainSharedModule),typeof(AbpAuditLoggingDomainModule),typeof(AbpBackgroundJobsDomainModule),
+    typeof(AbpFeatureManagementDomainModule),typeof(AbpIdentityDomainModule),
+    typeof(AbpOpenIddictDomainModule),typeof(AbpPermissionManagementDomainOpenIddictModule),
+    typeof(AbpPermissionManagementDomainIdentityModule),typeof(AbpSettingManagementDomainModule),
+    typeof(AbpTenantManagementDomainModule),typeof(AbpEmailingModule)
 )]
 public class ArmaPropertyDomainModule : AbpModule
 {
     public override void ConfigureServices(ServiceConfigurationContext context)
     {
+
+        //this is the options pattern 
         Configure<AbpLocalizationOptions>(options =>
         {
             options.Languages.Add(new LanguageInfo("ar", "ar", "العربية"));

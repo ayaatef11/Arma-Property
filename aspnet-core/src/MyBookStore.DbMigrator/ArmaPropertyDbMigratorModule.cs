@@ -6,9 +6,9 @@ namespace MyBookStore.DbMigrator;
 
 [DependsOn(
     typeof(AbpAutofacModule),
-    typeof(MyBookStoreEntityFrameworkCoreModule),
-    typeof(MyBookStoreApplicationContractsModule)
+    typeof(ArmaPropertyEntityFrameworkCoreModule),
+    typeof(ArmaPropertyApplicationContractsModule)
     )]
-public class MyBookStoreDbMigratorModule : AbpModule
+public class ArmaPropertyDbMigratorModule : AbpModule
 {
 }

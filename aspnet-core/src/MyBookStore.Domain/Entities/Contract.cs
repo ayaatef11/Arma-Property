@@ -10,7 +10,7 @@ namespace ArmaProperty.Domain.Entities
         public virtual ContractStatus? ContractStatus { get; set; }//navigation property
         public int TenantId { get; set; }
         [ForeignKey(nameof(TenantId))]
-        public virtual Tenant? Tenant { get; set; }
+        public virtual Tenante? Tenant { get; set; }
 
         public int PropertyId { get; set; }
         [ForeignKey(nameof(PropertyId))]

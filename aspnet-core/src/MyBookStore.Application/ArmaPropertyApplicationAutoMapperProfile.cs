@@ -2,9 +2,9 @@
 
 namespace MyBookStore;
 
-public class MyBookStoreApplicationAutoMapperProfile : Profile
+public class ArmaPropertyApplicationAutoMapperProfile : Profile
 {
-    public MyBookStoreApplicationAutoMapperProfile()
+    public ArmaPropertyApplicationAutoMapperProfile()
     {
         /* You can configure your AutoMapper mapping configuration here.
          * Alternatively, you can split your mapping configurations

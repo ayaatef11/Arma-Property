@@ -6,10 +6,10 @@ namespace MyBookStore;
 
 /* Inherit your application services from this class.
  */
-public abstract class MyBookStoreAppService : ApplicationService
+public abstract class ArmaPropertyAppService : ApplicationService
 {
-    protected MyBookStoreAppService()
+    protected ArmaPropertyAppService()
     {
-        LocalizationResource = typeof(MyBookStoreResource);
+        LocalizationResource = typeof(ArmaPropertyResource);
     }
 }

@@ -9,7 +9,7 @@ using Volo.Abp;
 using Volo.Abp.Data;
 
 namespace MyBookStore.DbMigrator;
-
+//runs any pending migration when application starts
 public class DbMigratorHostedService : IHostedService
 {
     private readonly IHostApplicationLifetime _hostApplicationLifetime;
@@ -23,7 +23,7 @@ public class DbMigratorHostedService : IHostedService
 
     public async Task StartAsync(CancellationToken cancellationToken)
     {
-        using (var application = await AbpApplicationFactory.CreateAsync<MyBookStoreDbMigratorModule>(options =>
+        using (var application = await AbpApplicationFactory.CreateAsync<ArmaPropertyDbMigratorModule>(options =>
         {
            options.Services.ReplaceConfiguration(_configuration);
            options.UseAutofac();

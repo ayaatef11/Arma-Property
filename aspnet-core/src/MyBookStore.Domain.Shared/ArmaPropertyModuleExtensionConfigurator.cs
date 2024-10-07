@@ -5,7 +5,7 @@ using Volo.Abp.Threading;
 
 namespace MyBookStore;
 
-public static class MyBookStoreModuleExtensionConfigurator
+public static class ArmaPropertyModuleExtensionConfigurator
 {
     private static readonly OneTimeRunner OneTimeRunner = new OneTimeRunner();
 

@@ -12,7 +12,7 @@ using Volo.Abp.TenantManagement;
 namespace MyBookStore;
 
 [DependsOn(
-    typeof(MyBookStoreApplicationContractsModule),
+    typeof(ArmaPropertyApplicationContractsModule),
     typeof(AbpAccountHttpApiModule),
     typeof(AbpIdentityHttpApiModule),
     typeof(AbpPermissionManagementHttpApiModule),
@@ -20,7 +20,7 @@ namespace MyBookStore;
     typeof(AbpFeatureManagementHttpApiModule),
     typeof(AbpSettingManagementHttpApiModule)
     )]
-public class MyBookStoreHttpApiModule : AbpModule
+public class ArmaPropertyHttpApiModule : AbpModule
 {
     public override void ConfigureServices(ServiceConfigurationContext context)
     {
@@ -32,7 +32,7 @@ public class MyBookStoreHttpApiModule : AbpModule
         Configure<AbpLocalizationOptions>(options =>
         {
             options.Resources
-                .Get<MyBookStoreResource>()
+                .Get<ArmaPropertyResource>()
                 .AddBaseTypes(
                     typeof(AbpUiResource)
                 );

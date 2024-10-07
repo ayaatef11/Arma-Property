@@ -11,7 +11,7 @@ using Volo.Abp.EntityFrameworkCore;
 
 namespace MyBookStore.Migrations
 {
-    [DbContext(typeof(MyBookStoreDbContext))]
+    [DbContext(typeof(ArmaPropertyDbContext))]
     partial class MyBookStoreDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

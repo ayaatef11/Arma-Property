@@ -5,10 +5,10 @@ namespace MyBookStore.Controllers;
 
 /* Inherit your controllers from this class.
  */
-public abstract class MyBookStoreController : AbpControllerBase
+public abstract class ArmaPropertyController : AbpControllerBase
 {
-    protected MyBookStoreController()
+    protected ArmaPropertyController()
     {
-        LocalizationResource = typeof(MyBookStoreResource);
+        LocalizationResource = typeof(ArmaPropertyResource);
     }
 }

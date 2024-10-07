@@ -21,8 +21,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Localization\MyBookStore\*.json" />
-    <Content Remove="Localization\MyBookStore\*.json" />
+    <EmbeddedResource Include="Localization\ArmaProperty\*.json" />
+    <Content Remove="Localization\ArmaProperty\*.json" />
   </ItemGroup>
 
   <ItemGroup>

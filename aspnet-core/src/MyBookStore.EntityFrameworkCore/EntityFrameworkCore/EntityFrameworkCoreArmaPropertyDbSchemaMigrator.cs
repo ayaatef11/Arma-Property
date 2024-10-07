@@ -7,12 +7,12 @@ using Volo.Abp.DependencyInjection;
 
 namespace MyBookStore.EntityFrameworkCore;
 
-public class EntityFrameworkCoreMyBookStoreDbSchemaMigrator
+public class EntityFrameworkCoreArmaPropertyDbSchemaMigrator
     : IMyBookStoreDbSchemaMigrator, ITransientDependency
 {
     private readonly IServiceProvider _serviceProvider;
 
-    public EntityFrameworkCoreMyBookStoreDbSchemaMigrator(
+    public EntityFrameworkCoreArmaPropertyDbSchemaMigrator(
         IServiceProvider serviceProvider)
     {
         _serviceProvider = serviceProvider;
@@ -27,7 +27,7 @@ public class EntityFrameworkCoreMyBookStoreDbSchemaMigrator
          */
 
         await _serviceProvider
-            .GetRequiredService<MyBookStoreDbContext>()
+            .GetRequiredService<ArmaPropertyDbContext>()
             .Database
             .MigrateAsync();
     }

@@ -5,14 +5,14 @@ using Volo.Abp.Threading;
 
 namespace MyBookStore.EntityFrameworkCore;
 
-public static class MyBookStoreEfCoreEntityExtensionMappings
+public static class ArmaPropertyEfCoreEntityExtensionMappings
 {
     private static readonly OneTimeRunner OneTimeRunner = new OneTimeRunner();
 
     public static void Configure()
     {
-        MyBookStoreGlobalFeatureConfigurator.Configure();
-        MyBookStoreModuleExtensionConfigurator.Configure();
+        ArmaPropertyGlobalFeatureConfigurator.Configure();
+        ArmaPropertyModuleExtensionConfigurator.Configure();
 
         OneTimeRunner.Run(() =>
         {

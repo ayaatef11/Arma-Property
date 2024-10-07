@@ -1,6 +1,6 @@
 ﻿namespace MyBookStore.Permissions;
 
-public static class MyBookStorePermissions
+public static class ArmaPropertyPermissions
 {
     public const string GroupName = "MyBookStore";
 

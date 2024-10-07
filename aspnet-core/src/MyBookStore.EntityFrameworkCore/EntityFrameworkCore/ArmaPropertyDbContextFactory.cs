@@ -8,18 +8,18 @@ namespace MyBookStore.EntityFrameworkCore;
 
 /* This class is needed for EF Core console commands
  * (like Add-Migration and Update-Database commands) */
-public class MyBookStoreDbContextFactory : IDesignTimeDbContextFactory<MyBookStoreDbContext>
+public class ArmaPropertyDbContextFactory : IDesignTimeDbContextFactory<ArmaPropertyDbContext>
 {
-    public MyBookStoreDbContext CreateDbContext(string[] args)
+    public ArmaPropertyDbContext CreateDbContext(string[] args)
     {
-        MyBookStoreEfCoreEntityExtensionMappings.Configure();
+        ArmaPropertyEfCoreEntityExtensionMappings.Configure();
 
         var configuration = BuildConfiguration();
 
-        var builder = new DbContextOptionsBuilder<MyBookStoreDbContext>()
+        var builder = new DbContextOptionsBuilder<ArmaPropertyDbContext>()
             .UseSqlServer(configuration.GetConnectionString("Default"));
 
-        return new MyBookStoreDbContext(builder.Options);
+        return new ArmaPropertyDbContext(builder.Options);
     }
 
     private static IConfigurationRoot BuildConfiguration()

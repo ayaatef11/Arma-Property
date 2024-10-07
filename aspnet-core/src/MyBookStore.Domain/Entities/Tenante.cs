@@ -2,7 +2,7 @@
 namespace ArmaProperty.Domain.Entities
 {
     [Index(nameof(FullName),IsUnique =true)]    
-    public class Tenant : Entity<int>
+    public class Tenante : Entity<int>
     {
         public string FullName { get; set; }=string.Empty;
         public string NationalIdentity { get; set; } = string.Empty;

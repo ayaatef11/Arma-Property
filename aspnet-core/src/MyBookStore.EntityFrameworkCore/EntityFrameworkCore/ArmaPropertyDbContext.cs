@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using ArmaProperty.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
 using Volo.Abp.AuditLogging.EntityFrameworkCore;
 using Volo.Abp.BackgroundJobs.EntityFrameworkCore;
 using Volo.Abp.Data;
@@ -18,25 +19,13 @@ namespace MyBookStore.EntityFrameworkCore;
 [ReplaceDbContext(typeof(IIdentityDbContext))]
 [ReplaceDbContext(typeof(ITenantManagementDbContext))]
 [ConnectionStringName("Default")]
-public class MyBookStoreDbContext :
-    AbpDbContext<MyBookStoreDbContext>,
+public class ArmaPropertyDbContext :
+    AbpDbContext<ArmaPropertyDbContext>,
     IIdentityDbContext,
     ITenantManagementDbContext
 {
-    /* Add DbSet properties for your Aggregate Roots / Entities here. */
 
     #region Entities from the modules
-
-    /* Notice: We only implemented IIdentityDbContext and ITenantManagementDbContext
-     * and replaced them for this DbContext. This allows you to perform JOIN
-     * queries for the entities of these modules over the repositories easily. You
-     * typically don't need that for other modules. But, if you need, you can
-     * implement the DbContext interface of the needed module and use ReplaceDbContext
-     * attribute just like IIdentityDbContext and ITenantManagementDbContext.
-     *
-     * More info: Replacing a DbContext of a module ensures that the related module
-     * uses this DbContext on runtime. Otherwise, it will use its own DbContext class.
-     */
 
     //Identity
     public DbSet<IdentityUser> Users { get; set; }
@@ -49,11 +38,22 @@ public class MyBookStoreDbContext :
     public DbSet<IdentitySession> Sessions { get; set; }
     // Tenant Management
     public DbSet<Tenant> Tenants { get; set; }
+
+    public DbSet<Catch> Catches { get; set; }
+    public DbSet<Contract> Contracts { get; set; }
+    public DbSet<ContractDetails> ContractDetails { get; set; }
+    public DbSet<ContractStatus> ContractStatus { get; set; }
+    public DbSet<Owner> Owners { get; set; }
+    public DbSet<Payment> Payments { get; set; }
+    public DbSet<PaymentMethod> PaymentMethods { get; set; }
+    public DbSet<Property> Properities { get; set; }
+    public DbSet<PropertyStatus> PropertyStatues { get; set; }
+    public DbSet<PropertyType> PropertyTypes { get; set; }
     public DbSet<TenantConnectionString> TenantConnectionStrings { get; set; }
 
     #endregion
 
-    public MyBookStoreDbContext(DbContextOptions<MyBookStoreDbContext> options)
+    public ArmaPropertyDbContext(DbContextOptions<ArmaPropertyDbContext> options)
         : base(options)
     {
 
@@ -83,4 +83,6 @@ public class MyBookStoreDbContext :
         //    //...
         //});
     }
+        
 }
+

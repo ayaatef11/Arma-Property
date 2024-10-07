@@ -32,7 +32,7 @@ class Program
 
     public static IHostBuilder CreateHostBuilder(string[] args) =>
         Host.CreateDefaultBuilder(args)
-            .AddAppSettingsSecretsJson()
+            .AddAppSettingsSecretsJson()//include user secret functionality 
             .ConfigureLogging((context, logging) => logging.ClearProviders())
             .ConfigureServices((hostContext, services) =>
             {

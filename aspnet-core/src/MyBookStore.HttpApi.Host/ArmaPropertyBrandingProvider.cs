@@ -8,9 +8,9 @@ namespace MyBookStore;
 [Dependency(ReplaceServices = true)]
 public class ArmaPropertyBrandingProvider : DefaultBrandingProvider
 {
-    private IStringLocalizer<MyBookStoreResource> _localizer;
+    private IStringLocalizer<ArmaPropertyResource> _localizer;
 
-    public ArmaPropertyBrandingProvider(IStringLocalizer<MyBookStoreResource> localizer)
+    public ArmaPropertyBrandingProvider(IStringLocalizer<ArmaPropertyResource> localizer)
     {
         _localizer = localizer;
     }

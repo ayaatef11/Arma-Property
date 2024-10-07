@@ -12,20 +12,20 @@ namespace MyBookStore;
 [DependsOn(
     typeof(ArmaPropertyDomainModule),
     typeof(AbpAccountApplicationModule),
-    typeof(MyBookStoreApplicationContractsModule),
+    typeof(ArmaPropertyApplicationContractsModule),
     typeof(AbpIdentityApplicationModule),
     typeof(AbpPermissionManagementApplicationModule),
     typeof(AbpTenantManagementApplicationModule),
     typeof(AbpFeatureManagementApplicationModule),
     typeof(AbpSettingManagementApplicationModule)
     )]
-public class MyBookStoreApplicationModule : AbpModule
+public class ArmaPropertyApplicationModule : AbpModule
 {
     public override void ConfigureServices(ServiceConfigurationContext context)
     {
         Configure<AbpAutoMapperOptions>(options =>
         {
-            options.AddMaps<MyBookStoreApplicationModule>();
+            options.AddMaps<ArmaPropertyApplicationModule>();
         });
     }
 }

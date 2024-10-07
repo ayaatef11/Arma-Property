@@ -33,11 +33,11 @@ using Volo.Abp.VirtualFileSystem;
 namespace MyBookStore;
 
 [DependsOn(
-    typeof(MyBookStoreHttpApiModule),
+    typeof(ArmaPropertyHttpApiModule),
     typeof(AbpAutofacModule),
     typeof(AbpAspNetCoreMultiTenancyModule),
-    typeof(MyBookStoreApplicationModule),
-    typeof(MyBookStoreEntityFrameworkCoreModule),
+    typeof(ArmaPropertyApplicationModule),
+    typeof(ArmaPropertyEntityFrameworkCoreModule),
     typeof(AbpAspNetCoreMvcUiLeptonXLiteThemeModule),
     typeof(AbpAccountWebOpenIddictModule),
     typeof(AbpAspNetCoreSerilogModule),
@@ -115,16 +115,16 @@ public class ArmaPropertyHttpApiHostModule : AbpModule
         {
             Configure<AbpVirtualFileSystemOptions>(options =>
             {
-                options.FileSets.ReplaceEmbeddedByPhysical<MyBookStoreDomainSharedModule>(
+                options.FileSets.ReplaceEmbeddedByPhysical<ArmaPropertyDomainSharedModule>(
                     Path.Combine(hostingEnvironment.ContentRootPath,
                         $"..{Path.DirectorySeparatorChar}MyBookStore.Domain.Shared"));
                 options.FileSets.ReplaceEmbeddedByPhysical<ArmaPropertyDomainModule>(
                     Path.Combine(hostingEnvironment.ContentRootPath,
                         $"..{Path.DirectorySeparatorChar}MyBookStore.Domain"));
-                options.FileSets.ReplaceEmbeddedByPhysical<MyBookStoreApplicationContractsModule>(
+                options.FileSets.ReplaceEmbeddedByPhysical<ArmaPropertyApplicationContractsModule>(
                     Path.Combine(hostingEnvironment.ContentRootPath,
                         $"..{Path.DirectorySeparatorChar}MyBookStore.Application.Contracts"));
-                options.FileSets.ReplaceEmbeddedByPhysical<MyBookStoreApplicationModule>(
+                options.FileSets.ReplaceEmbeddedByPhysical<ArmaPropertyApplicationModule>(
                     Path.Combine(hostingEnvironment.ContentRootPath,
                         $"..{Path.DirectorySeparatorChar}MyBookStore.Application"));
             });
@@ -135,7 +135,7 @@ public class ArmaPropertyHttpApiHostModule : AbpModule
     {
         Configure<AbpAspNetCoreMvcOptions>(options =>
         {
-            options.ConventionalControllers.Create(typeof(MyBookStoreApplicationModule).Assembly);
+            options.ConventionalControllers.Create(typeof(ArmaPropertyApplicationModule).Assembly);
         });
     }
 

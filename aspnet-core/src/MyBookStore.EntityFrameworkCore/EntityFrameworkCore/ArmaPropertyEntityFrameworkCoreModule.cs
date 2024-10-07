@@ -27,16 +27,16 @@ namespace MyBookStore.EntityFrameworkCore;
     typeof(AbpTenantManagementEntityFrameworkCoreModule),
     typeof(AbpFeatureManagementEntityFrameworkCoreModule)
     )]
-public class MyBookStoreEntityFrameworkCoreModule : AbpModule
+public class ArmaPropertyEntityFrameworkCoreModule : AbpModule
 {
     public override void PreConfigureServices(ServiceConfigurationContext context)
     {
-        MyBookStoreEfCoreEntityExtensionMappings.Configure();
+        ArmaPropertyEfCoreEntityExtensionMappings.Configure();
     }
 
     public override void ConfigureServices(ServiceConfigurationContext context)
     {
-        context.Services.AddAbpDbContext<MyBookStoreDbContext>(options =>
+        context.Services.AddAbpDbContext<ArmaPropertyDbContext>(options =>
         {
                 /* Remove "includeAllEntities: true" to create
                  * default repositories only for aggregate roots */
