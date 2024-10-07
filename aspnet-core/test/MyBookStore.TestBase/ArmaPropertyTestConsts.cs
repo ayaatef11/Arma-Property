@@ -1,6 +1,6 @@
 ﻿namespace MyBookStore;
 
-public static class MyBookStoreTestConsts
+public static class ArmaPropertyTestConsts
 {
     public const string CollectionDefinitionName = "MyBookStore collection";
 }

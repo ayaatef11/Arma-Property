@@ -2,7 +2,7 @@ using System;
 
 namespace MyBookStore.EntityFrameworkCore;
 
-public class MyBookStoreEntityFrameworkCoreFixture : IDisposable
+public class ArmaPropertyEntityFrameworkCoreFixture : IDisposable
 {
     public void Dispose()
     {

@@ -11,7 +11,7 @@ namespace MyBookStore.Samples;
  * (like IdentityUserManager here).
  * Only test your own domain services.
  */
-public abstract class SampleDomainTests<TStartupModule> : MyBookStoreDomainTestBase<TStartupModule>
+public abstract class SampleDomainTests<TStartupModule> : ArmaPropertyDomainTestBase<TStartupModule>
     where TStartupModule : IAbpModule
 {
     private readonly IIdentityUserRepository _identityUserRepository;

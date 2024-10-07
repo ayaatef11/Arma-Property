@@ -11,7 +11,7 @@ namespace MyBookStore.Samples;
  * (like IIdentityUserAppService here).
  * Only test your own application services.
  */
-public abstract class SampleAppServiceTests<TStartupModule> : MyBookStoreApplicationTestBase<TStartupModule>
+public abstract class SampleAppServiceTests<TStartupModule> : ArmaPropertyApplicationTestBase<TStartupModule>
     where TStartupModule : IAbpModule
 {
     private readonly IIdentityUserAppService _userAppService;

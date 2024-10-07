@@ -4,9 +4,9 @@ namespace MyBookStore;
 
 [DependsOn(
     typeof(ArmaPropertyApplicationModule),
-    typeof(MyBookStoreDomainTestModule)
+    typeof(ArmaPropertyDomainTestModule)
 )]
-public class MyBookStoreApplicationTestModule : AbpModule
+public class ArmaPropertyApplicationTestModule : AbpModule
 {
 
 }

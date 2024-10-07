@@ -13,7 +13,7 @@ namespace MyBookStore.HttpApi.Client.ConsoleTestApp;
     typeof(MyBookStoreHttpApiClientModule),
     typeof(AbpHttpClientIdentityModelModule)
     )]
-public class MyBookStoreConsoleApiClientModule : AbpModule
+public class ArmaPropertyConsoleApiClientModule : AbpModule
 {
     public override void PreConfigureServices(ServiceConfigurationContext context)
     {

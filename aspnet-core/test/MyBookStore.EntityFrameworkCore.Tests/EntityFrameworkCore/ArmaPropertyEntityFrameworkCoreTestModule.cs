@@ -15,11 +15,11 @@ using Volo.Abp.Uow;
 namespace MyBookStore.EntityFrameworkCore;
 
 [DependsOn(
-    typeof(MyBookStoreApplicationTestModule),
+    typeof(ArmaPropertyApplicationTestModule),
     typeof(ArmaPropertyEntityFrameworkCoreModule),
     typeof(AbpEntityFrameworkCoreSqliteModule)
     )]
-public class MyBookStoreEntityFrameworkCoreTestModule : AbpModule
+public class ArmaPropertyEntityFrameworkCoreTestModule : AbpModule
 {
     private SqliteConnection? _sqliteConnection;
 

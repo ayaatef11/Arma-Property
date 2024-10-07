@@ -15,7 +15,7 @@ namespace MyBookStore;
     typeof(AbpAuthorizationModule),
     typeof(AbpBackgroundJobsAbstractionsModule)
     )]
-public class MyBookStoreTestBaseModule : AbpModule
+public class ArmaPropertyTestBaseModule : AbpModule
 {
     public override void ConfigureServices(ServiceConfigurationContext context)
     {

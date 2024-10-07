@@ -14,7 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\MyBookStore.Domain\ArmaProperty.Domain.csproj" />
-    <ProjectReference Include="..\MyBookStore.TestBase\MyBookStore.TestBase.csproj" />
+    <ProjectReference Include="..\MyBookStore.TestBase\ArmaProperty.TestBase.csproj" />
   </ItemGroup>
 
 </Project>

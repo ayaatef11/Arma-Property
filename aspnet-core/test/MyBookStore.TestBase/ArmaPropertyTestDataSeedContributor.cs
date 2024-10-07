@@ -4,7 +4,7 @@ using Volo.Abp.DependencyInjection;
 
 namespace MyBookStore;
 
-public class MyBookStoreTestDataSeedContributor : IDataSeedContributor, ITransientDependency
+public class ArmaPropertyTestDataSeedContributor : IDataSeedContributor, ITransientDependency
 {
     public Task SeedAsync(DataSeedContext context)
     {

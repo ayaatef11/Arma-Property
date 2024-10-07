@@ -10,7 +10,7 @@ namespace MyBookStore;
 
 /* All test classes are derived from this class, directly or indirectly.
  */
-public abstract class MyBookStoreTestBase<TStartupModule> : AbpIntegratedTest<TStartupModule>
+public abstract class ArmaPropertyTestBase<TStartupModule> : AbpIntegratedTest<TStartupModule>
     where TStartupModule : IAbpModule
 {
     protected override void SetAbpApplicationCreationOptions(AbpApplicationCreationOptions options)

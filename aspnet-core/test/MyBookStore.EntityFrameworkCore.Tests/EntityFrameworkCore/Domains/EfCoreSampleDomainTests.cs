@@ -3,8 +3,8 @@ using Xunit;
 
 namespace MyBookStore.EntityFrameworkCore.Domains;
 
-[Collection(MyBookStoreTestConsts.CollectionDefinitionName)]
-public class EfCoreSampleDomainTests : SampleDomainTests<MyBookStoreEntityFrameworkCoreTestModule>
+[Collection(ArmaPropertyTestConsts.CollectionDefinitionName)]
+public class EfCoreSampleDomainTests : SampleDomainTests<ArmaPropertyEntityFrameworkCoreTestModule>
 {
 
 }
