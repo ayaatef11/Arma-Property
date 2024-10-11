@@ -6,7 +6,7 @@ namespace MyBookStore.Data;
 /* This is used if database provider does't define
  * IMyBookStoreDbSchemaMigrator implementation.
  */
-public class NullMyBookStoreDbSchemaMigrator : IMyBookStoreDbSchemaMigrator, ITransientDependency
+public class NullMyBookStoreDbSchemaMigrator : IArmaPropertyDbSchemaMigrator, ITransientDependency
 {
     public Task MigrateAsync()
     {

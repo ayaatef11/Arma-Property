@@ -61,5 +61,6 @@ public class ArmaPropertyDomainModule : AbpModule
 #if DEBUG
         context.Services.Replace(ServiceDescriptor.Singleton<IEmailSender, NullEmailSender>());
 #endif
+  
     }
 }

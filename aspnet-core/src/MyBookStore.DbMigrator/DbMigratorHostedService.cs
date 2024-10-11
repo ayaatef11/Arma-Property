@@ -35,7 +35,7 @@ public class DbMigratorHostedService : IHostedService
 
             await application
                 .ServiceProvider
-                .GetRequiredService<MyBookStoreDbMigrationService>()
+                .GetRequiredService<MyArmaPropertyDbMigrationService>()
                 .MigrateAsync();
 
             await application.ShutdownAsync();

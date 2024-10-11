@@ -8,7 +8,7 @@ using Volo.Abp.DependencyInjection;
 namespace MyBookStore.EntityFrameworkCore;
 
 public class EntityFrameworkCoreArmaPropertyDbSchemaMigrator
-    : IMyBookStoreDbSchemaMigrator, ITransientDependency
+    : IArmaPropertyDbSchemaMigrator, ITransientDependency
 {
     private readonly IServiceProvider _serviceProvider;
 

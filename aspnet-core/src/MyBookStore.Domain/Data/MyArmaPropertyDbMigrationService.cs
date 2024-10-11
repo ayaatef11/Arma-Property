@@ -15,13 +15,13 @@ using Volo.Abp.TenantManagement;
 
 namespace MyBookStore.Data;
 
-public class MyBookStoreDbMigrationService(
+public class MyArmaPropertyDbMigrationService(
     IDataSeeder _dataSeeder,
-    IEnumerable<IMyBookStoreDbSchemaMigrator> _dbSchemaMigrators,
+    IEnumerable<IArmaPropertyDbSchemaMigrator> _dbSchemaMigrators,
     ITenantRepository _tenantRepository,
     ICurrentTenant _currentTenant) : ITransientDependency
 {
-    public ILogger<MyBookStoreDbMigrationService> Logger { get; set; } = NullLogger<MyBookStoreDbMigrationService>.Instance;
+    public ILogger<MyArmaPropertyDbMigrationService> Logger { get; set; } = NullLogger<MyArmaPropertyDbMigrationService>.Instance;
 
     public async Task MigrateAsync()
     {
